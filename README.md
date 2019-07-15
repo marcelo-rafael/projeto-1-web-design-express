@@ -1,6 +1,8 @@
 # curso-web-design-express
-Projeto 01 do Curso Web Design Express da Danki Code
-Projeto feito com:
+
+Projeto 01 do Curso Web Design Express da Danki Code.
+
+Projeto feito com Design Responsivo:
 HTML5
 CSS3
 Efeito Parallax CSS
