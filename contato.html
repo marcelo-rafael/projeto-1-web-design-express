@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0">
+    <!-- COLOCAR AQUI META TAGS SEO -->
+    <meta name="keywords" content="palavra-chave, lorem, ipsum">
+    <meta name="author" content="Danki Code">
+    <meta name="description" content="Descrição do site aqui...">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Projeto Web Design Express</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <!-- -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER - LOGOMARCA E MENU DESKTOP -->
+
+    <header>
+        <div class="container">
+            <div class="logo"><a href="index.html">
+                    <h2>Danki.Code</h2>
+                </a></div>
+            <nav class="menu-desktop">
+                <ul>
+                    <li ><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li class="selected"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <!-- menu mobile -->
+            <nav class="menu-mobile">
+                <h2><i class="fa fa-bars"></i></h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li class="selected"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="clear"></div>
+        </div>
+    </header>
+
+    <!-- TITLE-PAGE -->
+
+    <section style="background-image: url('images/img1.jpg')" ; class="title-page">
+        <div class="overlay__title-page"></div>
+        <!-- container -->
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Magna sed sea labore ut accusam amet ut vero tempor amet. Duo sanctus sanctus stet justo justo justo
+                lorem clita.</p>
+        </div>
+    </section>
+
+    <!-- SECTION CONTATO -->
+    <section class="contato">
+        <!-- container -->
+        <div class="container">
+            <div class="w60 formulario">
+                <h2>Entre em contato que estaremos respondendo o mais breve possível!</h2>
+                <form method="POST">
+                    <div class="w50">
+                        <input placeholder="Nome..." type="text" required>
+                    </div>
+                    <div class="w50">
+                        <input placeholder="Sobrenome..." type="text" required>
+                    </div>
+                    <div class="w100">
+                        <input placeholder="E-mail..." type="email" required>
+                    </div>
+                    <div class="w100">
+                        <textarea placeholder="Sua mensagem..."></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <!-- tags-form -->
+            <div class="w40 tags-form">
+                <h2><i class="fa fa-comment"></i>Fale com a nossa equipe</h2>
+                <p>Elitr consetetur lorem eos labore nonumy. Lorem clita accusam dolores et.</p>
+
+
+                <p class="tag-contato"><i class="fab fa-facebook-f"></i> /dankicode </p>
+                <p class="tag-contato"><i class="fab fa-facebook-f"></i> /dankicode </p>
+                <p class="tag-contato"><i class="fab fa-facebook-f"></i> /dankicode </p>
+            </div>
+
+        <div class="clear"></div>
+        </div>
+    </section>
+
+    <!-- FOOTER 1 -->
+
+    <footer class="footer1">
+        <div class="container">
+            <div class="w33">
+                <h2>Aonde estamos ?</h2>
+                <p><i class="fas fa-map-marker"></i>R. fulano da silva, Coquiros, São Paulo/SP</p>
+                <p><i class="fas fa-phone"></i>(11)99999-9999</p>
+            </div>
+            <div class="w33">
+                <h2>Links úteis</h2>
+                <a href="https://dankicode.com">Danki Code</a>
+                <a href="https://w3schools.com">W3Schools</a>
+            </div>
+            <div class="w33">
+                <h2>Conecte-se conosco</h2>
+                <div class="group-icons">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </footer>
+
+    <!-- FOOTER 2 -->
+
+    <footer class="footer2">
+        <div class="container"></div>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+    <!-- JQUERY -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $('nav.menu-mobile h2').click(function () {
+            $('nav.menu-mobile ul').slideToggle();
+        });
+    </script>
+</body>
+
+</html>
